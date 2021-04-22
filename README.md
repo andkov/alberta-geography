@@ -3,6 +3,7 @@ Provides a quick start into a basic data analysis project
 
 # Resources
 
+- [maps with sf](https://ggplot2-book.org/maps.html#sfdetail) ggplot book
 - [leaflet](http://rstudio.github.io/leaflet/) documentation
 - [Making Maps with R by Richard A. Lent](https://richardlent.github.io/rnotebooks/maps.nb.html)
 - [Open and Plot Shapefiles](https://datacarpentry.org/r-raster-vector-geospatial/06-vector-open-shapefile-in-r/
