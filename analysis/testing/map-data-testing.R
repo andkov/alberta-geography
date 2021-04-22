@@ -12,6 +12,7 @@ library(sf)
 library(ggplot2)
 library(maps)
 library(mapdata)
+library(leaflet)
 
 # ---- declare-globals ---------------------------------------------------------
 
@@ -43,6 +44,11 @@ canada_map %>% ggplot() +
   geom_sf() +
   geom_sf(data = alberta_ssdr_sf) +
   coord_sf(xlim = c(-125,-100), ylim = c(45,66), expand = FALSE)
+
+
+leaflet(alberta_ssdr_sf) %>% 
+  addTiles() %>% 
+  addPolygons()
   
 
 
